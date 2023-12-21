@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>taki</title>
+    <link rel="stylesheet" href="./w3css/w3.css" />
+    <script
+      src="https://kit.fontawesome.com/3bc60e85e7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <a href="https://www.w3schools.com/">
+        <img src="./w3.png" alt="logo w3 schools" width="50px" />
+      </a>
+    </div>
+    <div class="container">
+      <div class="login-square">
+        <div id="login-text">Log in</div>
+
+        <form onsubmit="asd()">
+          <div class="email-text">
+            <label for="mail" id="mail-text">Email</label>
+            <div class="Create-account">
+              <label for="Need-an-account" id="Need-an-account"
+                >Need an account?</label
+              >
+              <label for="sign-in" id="sign-in">Sign in</label>
+            </div>
+          </div>
+          <input type="text" id="mail" name="mail" />
+          <div class="password-square">
+            <label for="password" id="password-text">Password</label>
+            <div class="show-password">
+              <i class="fa-regular fa-eye fa-xs" style="color: #292929"></i>
+              <label for="show" id="show" onclick="togglePassword()">Show</label>
+            </div>
+          </div>
+          <input type="password" id="password" />
+          <p id="error" class="error">error</p>
+          <button type="submit" id="button-log-in">Log in</button>
+        </form>
+
+        <div class="hr-with-text">
+          <hr />
+          <p>OR</p>
+          <hr />
+        </div>
+        <div class="fb-square">
+          <a href="https://www.facebook.com/" id="text-continue">
+            <i class="fa-brands fa-facebook fa-lg" style="color: #ffffff"></i>
+            <div id="continue-with-fb"> 
+              <div id="text-continue-fb">Continue with Facebook</div>
+          </a>
+          </div>
+        </div>
+        <div class="google-square">
+          <a href="https://www.google.com/" id="text-continue">
+            <i
+              class="fa-brands fa-google fa-lg"
+              style="color: rgb(70, 158, 116)"
+            ></i>
+            <div id="continue-with-google">
+              <div id="text-continue-google">Continue with Google</div>
+          </a>
+          </div>
+        </div>
+        <div class="github-square">
+          <a href="https://github.com/" id="text-continue">
+            <i class="fa-brands fa-github fa-lg" style="color: #1a2a42"></i>
+            <div id="continue-with-github">
+              <div id="text-continue-github">Continue with GitHub</div>
+          </a>
+          </div>
+        </div>
+        <div class="feide-square">
+          <a href="https://www.feide.no/" id="text-continue">
+            <i class="fa-solid fa-lock fa-lg" style="color: #2c53af"></i>
+            <div id="continue-with-feide">
+              <div id="text-continue-feide">Continue with Feide</div>
+          </a>
+          </div>
+        </div>
+        <div id="forgot-password">Forgot password?</div>
+      </div>
+    </div>
+    <div class="footer">
+      <i
+        class="fa-regular fa-copyright fa-xs"
+        style="color: rgb(101, 101, 101)"
+      >
+        <div id="dates">1999 - 2023</div>
+      </i>
+      <div id="w3-schools">W3schools.</div>
+      <div id="all-rights-reserved">All rights reserved.</div>
+      <div id="cookie-policy">Cookie policy.</div>
+      <div id="privacy">Privacy,</div>
+      <div id="and">and</div>
+      <div id="terms">Terms.</div>
+    </div>
+    <script src="./w3JS/w3.js"></script>
+  </body>
+</html>
+
+<!-- <div class="question-sign-up">
+            <div id="question-Need-An-Account-?">Need an account?</div>
+            <div id="sign-up">Sign up</div>
+          </div> -->
